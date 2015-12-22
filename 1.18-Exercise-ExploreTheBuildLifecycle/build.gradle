@@ -10,7 +10,7 @@ Exercises:
 2. Execute the "first" task and observe the output.
 3. Execute the "second" task and observe the output.
 
-*/
+
 
 println 'First top level script element'
 
@@ -29,5 +29,13 @@ task second(dependsOn: first) {
         println 'Second task: Action'
     }
 }
+*/
+task test {
+	doLast {
+		println '1'
+	}
+	println '2'
+}
+println '3'
 
-println 'Second top level script element'
+//println 'Second top level script element'
