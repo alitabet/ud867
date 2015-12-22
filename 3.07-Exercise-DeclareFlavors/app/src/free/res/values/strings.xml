@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">ProductFlavorsFree</string>
     <string name="product_flavor_name">Free</string>
+    <string name="joke">This is a super cheesy joke.</string>
 </resources>
