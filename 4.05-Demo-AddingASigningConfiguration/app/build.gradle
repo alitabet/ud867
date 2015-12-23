@@ -70,7 +70,7 @@ android {
         config {
             keyAlias 'udacity'
             keyPassword 'password'
-            storeFile file("$rootDir/keystore.jks")
+            storeFile file("C:\\Udacity - Android Nanodegree\\ud867\\4.05-Demo-AddingASigningConfiguration\\app/keystore.jks")
             storePassword 'password'
         }
     }
